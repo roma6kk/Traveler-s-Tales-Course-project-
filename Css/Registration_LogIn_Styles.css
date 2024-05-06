@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Tenor+Sans&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+.top, section, .bottom {
+  margin: 0 10px 0 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+title {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+button {
+  width: 715px;
+  height: 54px;
+  outline: none;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+input {
+  padding: 0 0 0 10px;
+  margin-top: 15px;
+  font-family: "Libre Franklin", sans-serif;
+  outline: none;
+  height: 50px;
+  width: 700px;
+  transition: border 1s ease, color 1s ease;
+}
+input:focus {
+  border: 2px solid #000000;
+}
+
+span {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}/*# sourceMappingURL=Registration_LogIn_Styles.css.map */

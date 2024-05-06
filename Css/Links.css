@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+/*----------------------------------NAV-------------------------------------------------------------------------------*/
+.logo-link:link {
+    color: black;
+}
+
+.logo-link:hover {
+    color: black;
+}
+
+.logo-link:visited {
+    color: black;
+}
+
+ul li a:link {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+ul li a:hover {
+    color: black;
+}
+/*----------------------------------FOOTER-LINKS----------------------------------------------------------------------*/
+.main-footer-link:link, .main-footer-link:hover, .main-footer-link:visited, .main-footer-link:active, .main-footer-link:focus {
+    color: white;
+}
+/*categories*/
+.categories ul li a:link {
+    color: white;
+}
+
+.categories ul li a:hover {
+    color: white;
+}
+
+.categories ul li a:visited {
+    color: white;
+}
+
+.categories ul li a:active {
+    color: white;
+}
+
+.categories ul li a:focus {
+    color: white;
+}
+
+.send-email {
+    display: inline;
+    float: right;
+}
+/*information*/
+.information ul li a:link {
+    color: white;
+}
+
+.information ul li a:hover {
+    color: white;
+}
+
+.information ul li a:visited {
+    color: white;
+}
+
+.information ul li a:active {
+    color: white;
+}
+
+.information ul li a:focus {
+    color: white;
+}
+/*----------------------------------REGISTRATION-LINKS----------------------------------------------------------------------*/
+.registration-link:link {
+    color: black;
+}
+
+.registration-link:hover {
+    color: black;
+}
+
+.registration-link:visited {
+    color: black;
+}
+
+.registration-link:link {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.registration-link:visited {
+    color: black;
+}
+
+.registration-link:hover {
+    color: black;
+}
