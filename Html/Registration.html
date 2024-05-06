@@ -28,14 +28,36 @@
                 </ul>
             </div>
         </div>
-        <div class="menu">
-            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-            <label for="burger-checkbox" class="burger"></label>
-            <ul class="menu-list">
-                <li><a href="Main.html" class="menu-item">Home</a><li>
-                <li><a href="About.html" class="menu-item">About</a><li>
-                <li><a href="Registration.html" class="menu-item">Sign in</a><li>
-            </ul>
+        <div class="container1">
+            <span class="logo">
+                <a href="Main.html" class="logo-link">
+                    <img src="/Images/logo.svg" height="80" width="80" alt="logo">
+                    <p class="logo-text">Traveler's Tales</p>
+                </a>
+            </span>
+
+            <h1>
+                <a href="#menu"><i class="fas fa-bars"></i></a>
+            </h1>
+
+            <div class="popover" id="menu">
+                <div class='content'>
+                    <a href="#" class="close"></a>
+                    <div class='nav'>
+                        <ul class='nav-list'>
+                            <div class='nav-list-item'>
+                                <li><a href="Main.html">Home</a></li>
+                            </div>
+                            <div class='nav-list-item'>
+                                <li><a href="About.html">About</a></li>
+                            </div>
+                            <div class='nav-list-item'>
+                                <li><a href="Registration.html">Sign in</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -109,12 +131,14 @@
                 </h1>
             </div>
             <div class="send-email2">
-                <input type="email" placeholder="EMAIL ADDRESS" id="email">
-                <button id="send">SEND</button>
+                <span>SUBSCRIBE TO NEWSLETTER</span>
+                <input type="email" placeholder="EMAIL ADDRESS" id="email1">
+                <button id="send1">SEND</button>
             </div>
         </div>
     </footer>
     <script src="/JavaScript/registration.js"></script>
     <script src="/JavaScript/subscribe.js"></script>
+    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 </body>
 </html>

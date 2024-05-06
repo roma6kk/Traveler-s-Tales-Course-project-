@@ -1,39 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Tenor+Sans&family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+$font-family_1: 'Tenor Sans', sans-serif;
+$border-bottom-color_1: #E6E6E6;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Tenor+Sans&family=Work+Sans:wght@300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap";
+/*----------------------------------NAV-------------------------------------------------------------------------------*/
 * {
 	margin: 0;
 	padding: 0;
 	user-select: none;
 }
 header {
-	border-bottom-color: #E6E6E6;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
 	.logo-text {
-		font-family: 'Tenor Sans', sans-serif;
+		font-family: $font-family_1;
 		font-weight: 600;
 		font-size: 25px;
 		height: inherit;
 		vertical-align: middle;
 	}
-	ul {
-		&.nav {
-			float: right;
-			list-style: none;
-			li {
-				display: inline;
-				margin-left: 59px;
-				cursor: pointer;
-				font-weight: 400;
-			}
+	border-bottom-color: $border-bottom-color_1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	ul.nav {
+		float: right;
+		list-style: none;
+		li {
+			display: inline;
+			margin-left: 59px;
+			cursor: pointer;
+			font-weight: 400;
 		}
 	}
 }
 img {
 	pointer-events: none;
+	display: inline-block;
+	vertical-align: middle;
 }
-img, .logo-text {
+.logo-text {
 	display: inline-block;
 	vertical-align: middle;
 }
