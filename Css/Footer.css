@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Tenor+Sans&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+footer {
+  margin-top: 54px;
+  height: 500px;
+  color: white;
+  background-color: #141414;
+}
+
+.container-text {
+  height: 120px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: #4D4D4D;
+  border-bottom-width: 1px;
+}
+
+.footer-text {
+  position: absolute;
+  margin-top: 50px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+footer ul li, footer h3 {
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.categories {
+  margin-top: 50px;
+}
+.categories .topics-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.categories ul {
+  display: inline-block;
+  margin-right: 14.5%;
+  margin-bottom: 50px;
+}
+.categories ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+}
+
+.topics-container .second-topic {
+  margin-right: 164px;
+}
+.topics-container h3 {
+  color: #666666;
+  font-size: 10px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.send-email button {
+  width: 80px;
+  height: 54px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-left: -5px;
+  border: none;
+  outline: none;
+}
+.send-email input {
+  padding: 0 0 0 10px;
+  font-family: "Libre Franklin", sans-serif;
+  outline: none;
+  height: 50px;
+  width: 220px;
+}
+
+.information .info-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+.information .first-info {
+  margin-right: 14.4%;
+}
+.information ul {
+  display: inline-block;
+  margin-right: 14.4%;
+}
+.information ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+}
+.information .second-ul {
+  margin-left: 18px;
+}
+
+.info-container h3 {
+  color: #666666;
+  font-size: 10px;
+  font-family: "Libre Franklin", sans-serif;
+}/*# sourceMappingURL=Footer.css.map */
