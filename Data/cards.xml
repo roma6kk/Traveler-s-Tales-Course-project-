@@ -2,7 +2,7 @@
 <cards>
     <card>
         <id>1</id>
-        <card-image>../Images/image1.svg</card-image>
+        <card-image>/Images/image1.svg</card-image>
         <card-type>ILLUSTRATION</card-type>
         <card-title>JAPAN HOUSE OPENS IN MOUNTAINSIDE TO <br/>FOSTER PEAK CREATIVITY.</card-title>
         <card-author>BY RETA TORPHY</card-author>
@@ -10,7 +10,7 @@
 
     <card>
         <id>2</id>
-        <card-image>../Images/image2.svg</card-image>
+        <card-image>/Images/image2.svg</card-image>
         <card-type>PHOTOGRAPHY</card-type>
         <card-title>HELMUT LANG <br/>CELEBRATES TAXI <br/>DRIVERS WORLDWIDE IN LATEST CAMPAIGN</card-title>
         <card-author>BY ALESSANDRA ORTIZ</card-author>
@@ -18,7 +18,7 @@
 
     <card>
         <id>3</id>
-        <card-image>../Images/image3.svg</card-image>
+        <card-image>/Images/image3.svg</card-image>
         <card-type>PHOTOGRAPHY</card-type>
         <card-title>BOWL CUT LAUNCH A NEW SUMMER COLLECTION THAT PAYS HOMAGE TO <br/>“UK LEGENDS”</card-title>
         <card-author>BY ROSANNA ONDRICKA</card-author>
@@ -26,7 +26,7 @@
 
     <card>
         <id>4</id>
-        <card-image>../Images/image4.svg</card-image>
+        <card-image>/Images/image4.svg</card-image>
         <card-type>PHOTOGRAPHY</card-type>
         <card-title>THOUSANDS OF UNSEEN PHOTOGRAPHS WILL BE MADE PUBLIC THIS AUTUMN</card-title>
         <card-author>BY ANNIE LUEILWITZ</card-author>
@@ -34,7 +34,7 @@
 
     <card>
         <id>5</id>
-        <card-image>../Images/image5.svg</card-image>
+        <card-image>/Images/image5.svg</card-image>
         <card-type>INTERACTIVE DESIGN</card-type>
         <card-title>LONDON-BASED YINKA <br/>ILORI’S STORYTELLING <br/>FURNITURE</card-title>
         <card-author>BY ANNIE LUEILWITZ</card-author>
@@ -42,7 +42,7 @@
 
     <card>
         <id>6</id>
-        <card-image>../Images/image6.svg</card-image>
+        <card-image>/Images/image6.svg</card-image>
         <card-type>GRAPHIC DESIGN</card-type>
         <card-title>ANONYMOUS ISRAELI <br/>ART COLLECTIVE BROKEN <br/>FINGAZ DIRECT MUSIC <br/>VIDEO FOR U2 AND BECK</card-title>
         <card-author>BY RETA TORPHY</card-author>
@@ -50,7 +50,7 @@
 
     <card>
         <id>7</id>
-        <card-image>../Images/image7.svg</card-image>
+        <card-image>/Images/image7.svg</card-image>
         <card-type>ARCHITECTURE</card-type>
         <card-title>METICULOUSLY <br/>ARRANGED <br/>PHOTOGRAPHS ALTER <br/>PERCEPTIONS</card-title>
         <card-author>BY SIMEON BREKKE</card-author>
@@ -58,7 +58,7 @@
 
     <card>
         <id>8</id>
-        <card-image>../Images/image8.svg</card-image>
+        <card-image>/Images/image8.svg</card-image>
         <card-type>GRAPHIC DESIGN</card-type>
         <card-title>ANU AMBASNA’S PLAYFUL <br/>ILLUSTRATIONS <br/>CELEBRATE CLUB <br/>CULTURE</card-title>
         <card-author>BY LEO BARTELL</card-author>

@@ -37,6 +37,10 @@ section {
   margin: 0 10px 0 10px;
 }
 
+a:visited {
+  color: #000000;
+}
+
 h1 {
   margin: 28px auto 28px auto;
   font-family: "Tenor Sans", sans-serif;
@@ -96,5 +100,61 @@ p {
   .cards-container div img {
     width: 523px;
     height: 187px;
+  }
+}
+@media (max-width: 1000px) {
+  .container1 h1 {
+    margin-left: 54%;
+  }
+  .second-section {
+    margin-top: 28px;
+  }
+  .second-section .cards-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .second-section .cards-container div h2 {
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 30px;
+    margin-top: 18px;
+    color: #000000;
+  }
+  .second-section .cards-container div h5 {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #999999;
+  }
+  .second-section .cards-container div strong {
+    font-size: 25px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 10px;
+  }
+  .second-section .cards-title {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #999999;
+    margin-left: 6%;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards-container div img {
+    height: 120%;
+    width: 120%;
   }
 }/*# sourceMappingURL=ArticleStyles.css.map */
