@@ -9,8 +9,7 @@ $background-color_1: #FFFFFF;
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Tenor+Sans&family=Work+Sans:wght@300&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Bungee&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap";
-/*----------------------------------MAIN-CONTENT----------------------------------------------------------------------*/
-/*news-cards*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -160,6 +159,140 @@ a {
 			height: 358px;
 			margin-top: 62px;
 			margin-right: 3%;
+		}
+	}
+	h2 {
+		font-weight: 400;
+	}
+	.button-container {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+	.main-block {
+		display: flex;
+	}
+	.main-block2 {
+		display: none;
+	}
+}
+@media (max-width: 1000px) {
+	.main-block {
+		display: none;
+	}
+	.main-block2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.news-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 53px;
+		.cards-title {
+			font-family: $font-family_3;
+			line-height: 120%;
+			letter-spacing: 1px;
+			color: $color_2;
+			font-size: 25px;
+			align-self: flex-start;
+			margin-left: 6%;
+			margin-bottom: 15px;
+		}
+		h5 {
+			font-weight: 400;
+			font-family: $font-family_3;
+			font-size: 10px;
+			margin-top: 15px;
+			color: $color_2;
+		}
+		h2 {
+			line-height: 24px;
+			font-family: $font-family_1;
+			font-size: 19px;
+			margin-top: 18px;
+			color: $color_3;
+		}
+		strong {
+			font-size: 10px;
+			font-family: $font-family_3;
+			font-weight: bold;
+			letter-spacing: 1px;
+			word-spacing: 5px;
+			margin-top: 10px;
+		}
+		.first-cards-container {
+			img {
+				width: 80%;
+				height: 80%;
+			}
+			display: block;
+		}
+		.second-cards-container {
+			img {
+				width: 80%;
+				height: 80%;
+			}
+			display: block;
+		}
+		button {
+			width: 405px;
+			height: 84px;
+			outline: none;
+			text-align: center;
+			margin-top: 50px;
+			background-color: $background-color_1;
+			border: 2px solid #000000;
+			font-family: $font-family_3;
+			font-weight: 400;
+			font-size: 28px;
+		}
+	}
+	.first-cards-container {
+		display: flex;
+		justify-content: center;
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+			h5 {
+				font-size: 20px;
+			}
+			h2 {
+				font-size: 30px;
+				text-align: center;
+				line-height: 1.5;
+			}
+			strong {
+				font-size: 25px;
+			}
+		}
+	}
+	.second-cards-container {
+		display: flex;
+		justify-content: center;
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+			h5 {
+				font-size: 20px;
+			}
+			h2 {
+				font-size: 30px;
+				text-align: center;
+				line-height: 1.5;
+			}
+			strong {
+				font-size: 25px;
+			}
 		}
 	}
 	h2 {

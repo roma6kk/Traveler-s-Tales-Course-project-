@@ -58,4 +58,21 @@ input:focus {
 span {
   margin-top: 28px;
   margin-bottom: 28px;
+}
+
+@media (max-width: 1000px) {
+  main section {
+    margin-top: 20px;
+  }
+  main section input {
+    font-size: 25px;
+    height: 100px;
+  }
+  main section button {
+    height: 100px;
+    font-size: 25px;
+  }
+  main section span {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=Registration_LogIn_Styles.css.map */
