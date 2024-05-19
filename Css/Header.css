@@ -81,7 +81,7 @@ img {
     display: none;
   }
   .container1 {
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +123,7 @@ img {
     animation: 1s grow ease forwards;
     text-align: center;
   }
-  .popover p {
+  .popover span {
     padding: 50px;
     opacity: 0;
     animation: 1s fadeIn ease forwards 1s;
@@ -180,7 +180,6 @@ img {
     overflow: hidden;
   }
   .logo {
-    align-self: flex-start;
     margin-left: 20px;
   }
   .logo .logo-link .logo-text {
